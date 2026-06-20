@@ -2,6 +2,7 @@ import { Router, Request, Response } from 'express';
 import {
   getMovieStreams,
   getTvStreams,
+  downloadStream
 } from '../controllers/stream.controller';
 
 const router = Router();
@@ -14,6 +15,9 @@ router.get('/', (req: Request, res: Response) => {
     sources: [],
   });
 });
+
+// GET /api/streams/download/:tmdbId
+router.get('/download/:tmdbId', downloadStream);
 
 // GET /api/streams/movie/:tmdbId
 router.get('/movie/:tmdbId', getMovieStreams);
