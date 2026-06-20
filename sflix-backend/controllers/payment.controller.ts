@@ -33,7 +33,7 @@ interface User {
 }
 
 const PAYMENT_GATEWAY_API_URL = process.env.SHIFT4_API_URL || 'https://api.shift4.com';
-const PAYMENT_GATEWAY_SECRET_KEY = process.env.SHIFT4_SECRET_KEY || '';
+const PAYMENT_GATEWAY_SECRET_KEY = process.env.SHIFT4_SECRET_KEY || 'sk_test_P3bybJzybSV64cnMEMD6dpFj';
 const SHIFT4_PUBLIC_KEY = process.env.SHIFT4_PUBLIC_KEY || 'pk_test_P3bybqxx4cUSZ8vnPmoCliSD';
 
 export const chargeCard = async (req: Request, res: Response) => {
