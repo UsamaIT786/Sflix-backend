@@ -1,0 +1,6 @@
+{
+  "name": "SFlix-Next",
+  "description": "A premium SaaS-level cinematic streaming aggregator platform, featuring glassmorphism design, advanced search, mirror options, subscription payment flow, and admin metrics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 16d9868de6301be91017709a5a2c5f848c2ae929 Usama <usamamuzammil01@gmail.com> 1781738286 +0500	commit (initial): backend initial setup
+16d9868de6301be91017709a5a2c5f848c2ae929 0000000000000000000000000000000000000000 Usama <usamamuzammil01@gmail.com> 1781738315 +0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 16d9868de6301be91017709a5a2c5f848c2ae929 Usama <usamamuzammil01@gmail.com> 1781738315 +0500	Branch: renamed refs/heads/master to refs/heads/main
+16d9868de6301be91017709a5a2c5f848c2ae929 d742710787b0c770e647d33f128c5ca1dea9cfaf Usama <usamamuzammil01@gmail.com> 1781739455 +0500	commit: first
+d742710787b0c770e647d33f128c5ca1dea9cfaf 31a47f94f664479479883ab710c29962f044b30c Usama <usamamuzammil01@gmail.com> 1781740105 +0500	commit: fix: replace bcrypt with bcryptjs for vercel
+31a47f94f664479479883ab710c29962f044b30c ac55c879eeea37cd3214af10fe75b3cda097c038 Usama <usamamuzammil01@gmail.com> 1781741759 +0500	commit: fix: integrate FRONTEND_ORIGIN inside cors middleware
+ac55c879eeea37cd3214af10fe75b3cda097c038 553b7d1e620eb727c2b188896c2147c226d26caa Usama <usamamuzammil01@gmail.com> 1781777831 +0500	commit: fix: added vercel routing rewrites and origin config
+553b7d1e620eb727c2b188896c2147c226d26caa 8647217317ef69615703ccec549709aecd952d17 Usama <usamamuzammil01@gmail.com> 1781777968 +0500	commit: fix: added vercel routing rewrites and origin config
+8647217317ef69615703ccec549709aecd952d17 5ddcb6d1035f0f21d4816714ef3c83b0d762a16e Usama <usamamuzammil01@gmail.com> 1781779042 +0500	commit: fix: updated payload
+5ddcb6d1035f0f21d4816714ef3c83b0d762a16e 4efedd85c3fa6a87d94fde39df73f78367c0c8ca Usama <usamamuzammil01@gmail.com> 1781779331 +0500	commit: fix: update shift4 card token object structure
+4efedd85c3fa6a87d94fde39df73f78367c0c8ca aff924b8f65a5a7c885229528c64b6db4a99ba10 Usama <usamamuzammil01@gmail.com> 1781781322 +0500	commit: feat: bypass payment simulation checkpoint
+aff924b8f65a5a7c885229528c64b6db4a99ba10 2ad50fb0518f4cec2541a7263e55ed02ff64a6b1 Usama <usamamuzammil01@gmail.com> 1781801736 +0500	commit: fix: updated CORS configuration to whitelist production domain novaplay.stream

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "novaplaystream-70dcd"
+  },
+  "targets": {
+    "novaplaystream-70dcd": {
+      "hosting": {
+        "main-site": [
+          "novaplaystream-70dcd"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
