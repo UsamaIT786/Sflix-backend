@@ -2,11 +2,12 @@
   "name": "sflix-backend",
   "version": "1.0.0",
   "description": "SFlix-Next streaming aggregator backend — TMDB proxy & dynamic stream resolver",
-  "main": "server.ts",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
+    "vercel-build": "tsc",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
