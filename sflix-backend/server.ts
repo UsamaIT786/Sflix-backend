@@ -110,10 +110,12 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   });
 });
 
-// ─── Start server ───────────────────────────────────────────────
-app.listen(PORT, () => {
-  console.log(`\n  🎬  SFlix-Next Backend live on http://localhost:${PORT}`);
-  console.log(`  🔗  Accepting requests from ${FRONTEND_ORIGIN}\n`);
-});
+// ─── Start server (only if not in Vercel environment) ────────────
+if (process.env.VERCEL !== '1') {
+  app.listen(PORT, () => {
+    console.log(`\n  🎬  SFlix-Next Backend live on http://localhost:${PORT}`);
+    console.log(`  🔗  Accepting requests from ${FRONTEND_ORIGIN}\n`);
+  });
+}
 
 export default app;
